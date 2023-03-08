@@ -24,3 +24,18 @@
 - master(v0.1) -> dev -> dev -> dev -> master 병합(v0.2)
 
 - master -> dev1, dev2 -> dev1, dev2 -> dev1, dev2 -> dev1 + dev2 -> dev1 + master
+
+# 브런치 목록 확인
+- git branch : 로컬 저장소의 브랜치 목록 확인
+- git branch -a : 원격저장소와 로컬저장소 브랜치 목록 확인
+- 현재 선택되어 있는 브랜치는 *(초록색 글자)
+
+# 브랜치 생성
+- git branch "생성할 브랜치의 이름"
+
+# 브랜치 이동
+- git checkout "이동 할 브랜치의 이름" : 있는 브랜치로 이동
+- git switch "이동 할 브랜치의 이름"
+
+# 브랜치 제거
+- git branch -d "제거한 브랜치의 이름"
